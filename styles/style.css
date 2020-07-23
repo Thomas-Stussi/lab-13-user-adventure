@@ -117,3 +117,7 @@ footer {
     }
 
   }
+
+  label {
+      display: block;
+  }
