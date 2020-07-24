@@ -20,6 +20,7 @@ body {
     
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--color2);
+    text-align: center;
 }
 
 main {
@@ -116,4 +117,36 @@ footer {
         transform: rotate3d(10, 10, 10, 50deg) scale(1);
     }
 
+  }
+
+  label {
+      display: block;
+  }
+
+  .hidden {
+      display: none;
+  }
+
+  .home {
+      background-image: url('https://www.wallpaperup.com/uploads/wallpapers/2014/01/16/229410/64d9fd8774e279f5049239ad95d9b98d-375.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .map {
+    background-image: url('https://geoawesomeness.com/wp-content/uploads/2013/11/lord-of-the-rings-free-middle-earth-map-with-color-cccc-page-254377.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .quest {
+    background-image: url('https://boardgamesland.com/wp-content/uploads/2018/07/best-fantasy-board-games-1001x640.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .result {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7f44b98a-ab16-4b8e-9d44-3258863d1d8e/d5t1lsz-acb87e7a-e09c-4c26-8fac-fe9bf97e7d50.jpg/v1/fill/w_1205,h_663,q_70,strp/victory_by_karatastamer_d5t1lsz-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD02ODkiLCJwYXRoIjoiXC9mXC83ZjQ0Yjk4YS1hYjE2LTRiOGUtOWQ0NC0zMjU4ODYzZDFkOGVcL2Q1dDFsc3otYWNiODdlN2EtZTA5Yy00YzI2LThmYWMtZmU5YmY5N2U3ZDUwLmpwZyIsIndpZHRoIjoiPD0xMjUxIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.8JtGyXqO0-GcvAn5QpSAOrjyHtWGYUXm4eTvWkyVy2A');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
