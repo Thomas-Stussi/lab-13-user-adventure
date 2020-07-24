@@ -29,6 +29,7 @@ export function renderSection(quest) {
         label.append(labelDiv, input);
         form.append(label);
     }
+
     const button = document.createElement('button');
 
     button.textContent = 'Submit';
@@ -49,12 +50,16 @@ export function renderSection(quest) {
 
         setUser(user);
 
-        const resultDiv = document.querySelector('#result');
+        form.classList.add('hidden');
+        button.classList.add('hidden');
+
+        const resultDiv = document.createElement('div');
         resultDiv.textContent = results.result;
 
         const nextButton = document.getElementById('next');
 
         nextButton.classList.remove('hidden');
+        section.append(resultDiv, nextButton);
     });
     
     form.append(button);
@@ -66,3 +71,5 @@ export function renderSection(quest) {
 export function findById(array, id) { 
     return array.find(i => i.id === id); 
 }
+
+

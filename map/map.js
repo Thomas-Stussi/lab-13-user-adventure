@@ -5,9 +5,7 @@ const user = getUser();
 
 if (user.hp <= 0) {
     //game over logic here!
-    alert('game over');
-    alert('you had this much gold' + makeUser.gold);
-    window.location('../index.html');
+    window.location = '/results';
 }
 
 const section = document.querySelector('section');
@@ -24,7 +22,7 @@ for (let i = 0; i < quests.length; i++) {
 
 if (completedQuests === quests.length) {
     //win message
-    alert('Incredible! You win and have this much gold: ' + user.gold);
+    window.location = '/results';
 }
 
 for (let i = 0; i < quests.length; i++) {

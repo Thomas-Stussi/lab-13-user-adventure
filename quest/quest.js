@@ -15,7 +15,6 @@ const sectionEl = renderSection(questData);
 
 nextButton.addEventListener('click', () => {
     window.location = '../map';
-    console.log('hello');
 });
 
 main.append(sectionEl);
